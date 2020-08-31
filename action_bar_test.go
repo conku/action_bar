@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/conku/admin"
+	"github.com/conku/qor"
+	"github.com/conku/qor/test/utils"
 	"github.com/fatih/color"
-	"github.com/qor/admin"
-	"github.com/qor/qor"
-	"github.com/qor/qor/test/utils"
 
 	"github.com/headzoo/surf"
 )

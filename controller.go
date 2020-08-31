@@ -3,8 +3,8 @@ package action_bar
 import (
 	"net/http"
 
-	"github.com/qor/admin"
-	"github.com/qor/qor/utils"
+	"github.com/conku/admin"
+	"github.com/conku/qor/utils"
 )
 
 type controller struct {
