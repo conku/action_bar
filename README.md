@@ -39,7 +39,7 @@ ActionBar.RegisterAction(&action_bar.Action{Name: "Admin Dashboard", Link: "/adm
 
 Imagine the administrator of a EC site could edit a product detail in the shopping page rather than edit it in the back-end CMS. The shopping page editing could help the administrator to have a better operation experience. We have integrated this feature to [ActionBar](https://github.com/conku/action_bar). The setup is easy.
 
-First, register view functions. The example uses [Render](https://github.com/conku/render) to render the template. So we register functions by `Render.RegisterFuncMap`. The `admin.ActionBar` in the example is an instance of [QOR Admin](https://github.com/conku/admin).
+First, register view functions. The example uses [Render](https://github.com/conku/render2) to render the template. So we register functions by `Render.RegisterFuncMap`. The `admin.ActionBar` in the example is an instance of [QOR Admin](https://github.com/conku/admin).
 
 ```go
 for key, value := range admin.ActionBar.FuncMap(ctx.Writer, ctx.Request) {
