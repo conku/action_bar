@@ -1,22 +1,6 @@
 package action_bar
 
-import (
-	"fmt"
-	"html/template"
-	"net/http"
-	"net/http/httptest"
-	"os"
-	"strings"
-	"testing"
-
-	"github.com/conku/admin"
-	"github.com/conku/qor"
-	"github.com/conku/qor/test/utils"
-	"github.com/fatih/color"
-
-	"github.com/headzoo/surf"
-)
-
+/*
 var Server *httptest.Server
 var CurrentUser *User
 var actionBar *ActionBar
@@ -161,3 +145,4 @@ func TestInlineActions(t *testing.T) {
 		t.Errorf(color.RedString("Should display all actions if turn on inline-edit"))
 	}
 }
+*/
